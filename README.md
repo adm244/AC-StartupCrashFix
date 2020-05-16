@@ -20,13 +20,13 @@ Instead of dealing with command-line options and proxy-dlls
 you can just patch an executable to always set "/notracking" option.
 
 - 'Patches/DX9_102_nostartupvideos.1337':
-This patch modifies an stub (empty) function in Engine::Init to set "/notracking" option.
+This patch modifies a stub (empty) function in Engine::Init to set "/notracking" option.
 - 'Patches/DX10_102_nostartupvideos.1337':
 This is the same patch as previous one, but for DX10 version.
 
 #### Bonus
 - 'Patches/DX9_102_nostartupvideos.1337':
-This patch changes a conditional jump to uncoditional
+This patch changes a conditional jump to unconditional
 so that game skips playing startup videos.
 - 'Patches/DX10_102_nostartupvideos.1337':
 This is the same patch as previous one, but for DX10 version.
